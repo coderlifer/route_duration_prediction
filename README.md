@@ -37,3 +37,4 @@ you'll get `submission.csv.gz` file in `data` directory.
 See also [detailed model description](how_it_works.md)
 
 python trainer.py --name s32 --hparam_set=s32 --n_models=3 --name s32 --no_eval --no_forward_split --asgd_decay=0.99 --max_steps=11500 --save_from_step=10500 --is_train=0
+数据集：https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption
